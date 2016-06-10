@@ -1,9 +1,6 @@
 FROM mdcw/tccodefresh
-
-RUN echo "test1" &&\
-pwd &&\
-ls /etc/nginx &&\
-uname -a &&\
+RUN ls &&\
 whoami &&\
-ifconfig
-
+pwd &&\
+ifconfig &&\
+uname -a
